@@ -5,5 +5,5 @@
 4. Sarybayev Ruslan https://github.com/rruss
 
 
-###Description
+### Description
 web magazine with awesome functionality
