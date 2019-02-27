@@ -6,4 +6,6 @@
 
 
 ### Description
-web magazine with awesome functionality
+
+We want an online store that will sell some products, for both men and women. Sometimes there will be jewelry (pendants, bracelets).
+It should be possible to place an order through the site, pay online. In contacts you need an interactive map, where all our branches in different cities will be.
