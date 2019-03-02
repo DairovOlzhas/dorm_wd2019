@@ -1,0 +1,54 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #DDB53D;
+}
+.menu {
+	height: 70px;
+	width: 100%;
+	background-color: black;
+	}
+.menu_cont{
+	width: 1100px;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.menu_right{
+	width: 20%;
+	height: 100%;
+	float: right;
+}
+.log p{
+	color: white;
+}
+.log {
+	float: right;
+}
+
+.logo {
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+.logo img {
+	height: 70px;
+	width: 65px;
+}
+.search {
+	margin-top: 10%;	
+	float: right;
+}
+.srch{
+	width: 150px;
+	height: 10px;
+	border-radius: 5px;
+	padding: 5px 5px;
+	border: 1px solid gray;
+	font-size: 6px;	
+}
+.content {
+	
+}
