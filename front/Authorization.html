@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="registrstyle.css">
+    <link rel="stylesheet" type="text/css" href="authorizestyle.css">
     <title>Authorization</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@
         <div class="Login">
                 <form action="mainpage.html" method="POST">
                 <div class="Email">
-                    <label for="email">Email</label>
+                    <label for="email">Email</label><br>
                     <input type="email" name="email" id="email" autofocus> 
                 </div>
                         
@@ -43,23 +43,24 @@
         
                         <div class="Account">
                             <form action="mainpage.html" method="POST">
-                                    <input type = "text" name = "first-name" placeholder= "Name" required>
-                                    <input type = "text" name = "surname" placeholder = "Surname" required><br>
-                                    <input type = "email" name = "emailOrNumber" class = "emailOrNumber" placeholder = "Email" required><br>
-                                    <input type = "password" name = "newPassword" class = "newPassword" placeholder = "Retype your password" required><br>
+                                    <input type = "text" name = "firstname" id = "firstname" placeholder = "Firstname" required>
+                                    <input type = "text" name = "lastname" id = "lastname" placeholder = "Lastname" required><br>
+                                    <input type = "email" name = "emailOrNumber" class = "email" placeholder = "Email" required><br>
+                                    <input type = "password" name = "newPassword" id = "newPassword" placeholder = "newPassword" required>
+                                    <input type = "password" name = "rePassword" id = "rePassword" placeholder = "Retype your password" required><br>
                                     <label>Date of birth</label><br>
                                     <input type = "date" name = "date" required>
                                    
                                     <div class="tooltip">Why do we ask about your age?
-                                        <span class="tooltiptext">Если вы укажете дату рождения, мы сможем показывать вам на главной странице. Если вы хотите изменить то, кто может видеть вашу дату рождения, перейдите в раздел «Информация» своего профиля. Более подробную информацию можно найти в нашей <a href="profile.html">Странице</a></span>
+                                        <span class="tooltiptext">If you specify a date of birth, we can show you on the main page. If you want to change who can see your date of birth, go to the "Information" section of your profile. More information can be found in our <a href="profile.html">page</a>.</span>
                                     </div>
                                     <input type = "radio" name = "gender" required>
                                     <label class="Female"> Male </label>
                                     <input type = "radio" name = "gender">
                                     <label class="Male"> Female </label><br>
             
-                                    <span class="click">Нажимая кнопку регистрация, вы принимаете <a href = "https://glopart.ru/web/rules" target="_blank" style="text-decoration: none;">Rules</a>,<a href = "https://glopart.ru/web/personal" style="text-decoration: none";target="_blank"> Data usage policy</a> and<a href = "https://glopart.ru/web/cookie" target= "_blank" style="text-decoration: none"> Cookie Policy</a>.
-                                    Вы можете получать от нас SMS-уведомления, отказаться от которых можно в любой момент.</span><br>
+                                    <span class="click">By clicking the register button, you accept <a href = "https://glopart.ru/web/rules" target="_blank" style="text-decoration: none;">Rules</a>,<a href = "https://glopart.ru/web/personal" style="text-decoration: none";target="_blank"> Data usage policy</a> and<a href = "https://glopart.ru/web/cookie" target= "_blank" style="text-decoration: none"> Cookie Policy</a>.
+                                        You can receive from us SMS-notifications, which you can refuse at any time.</span><br>
                                     <br>
                                     <input type="submit" value="Регистрация"><br>
                             </form>

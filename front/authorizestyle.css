@@ -1,0 +1,229 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #DDB53D;
+}
+.menu {
+	height: 70px;
+	width: 100%;
+	background-color: black;
+	}
+
+.menu_cont{
+	width: 1100px;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo {
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+.logo img {
+	height: 70px;
+	width: 65px;
+}
+.name{
+	position: relative;
+	left: 10px;
+	top: 15px;
+	color: #DDB53D;
+	font-size: 30px
+}
+.Login{
+	margin-left: -100px;
+	width: 45%;
+	float: left;
+}
+.Email{
+    padding-left: 470px;
+    margin-top: 10px;
+	height: 20px;
+    width: 280px;
+    font-size: 16px;
+    border-radius: 5px;
+
+} 
+
+.Password{
+	padding-left: 800px;
+    margin-top: -19.5px;
+	height: 20px;
+    width: 280px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.Loginbutton{
+	padding-left: 1050px;
+	padding-top:-60px;
+	
+}
+.Loginbutton input{
+	border: 1px solid black;
+	border-radius: 2px;
+	color: #DDB53D;
+	background: black;
+	height: 30px;
+	width: 60px; 
+   
+}
+.LoginButton input:hover{
+	background: black;
+	cursor: pointer;
+}
+.LogUp{
+    position: relative;
+    top: 60px;
+    right: 150px;
+}
+.Account{
+    width: 55%;
+    float: left;
+}
+.LogUp h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.LogUp p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.LogUp .Always free{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#firstname{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#lastname{
+    position: relative;
+    left: 22px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.Account input[type="email"]{
+    margin-bottom: 15px;
+    width: 440px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#newPassword{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#rePassword{
+    position: relative;
+    left: 22px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.Account input[type="radio"]{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.Account input[type="date"]{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.Account input[type="submit"]{
+    height: 30px;
+    width: 200px;
+    font-weight: solid;
+    background: rgb(101, 169, 83);
+    border: 1px solid rgb(59, 110, 34);
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Account label{
+    font-size: 20px;
+    font-weight: medium;
+    margin-bottom: 15px;
+}
+.Account .click{
+    color: rgb(119, 119, 122);
+    font-size: 12px;
+    
+}
+.Account .pageForStars{
+    color: rgb(61, 61, 41);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.Account .emailOrNumber, .newPassword{
+    width: 84%;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px;
+    color: rgb(79, 79, 143);
+    cursor: pointer;
+    width: 270px;
+
+}
+.tooltip .tooltiptext{
+    visibility: hidden;
+    height: 180px;
+    width: 320px;
+    background-color:white;
+    color: black;
+    text-align: left;
+    padding: 10px 10px;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -40px;
+    cursor: text;
+    opacity: 0;
+    transition: opacity 0.3s;
+    }
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    margin-left: -70px;
+    border-width: 23px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    cursor: text;
+    }
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
