@@ -1,0 +1,275 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #DDB53D;
+}
+.menu {
+	height: 70px;
+	width: 1352px;
+	background-color: black;
+	}
+.menu_cont{
+	width: 100%;
+	height: 1000px;
+}
+
+.log p{
+	color: white;
+}
+.log {
+	float: right;
+}
+
+.logo {
+	float: left;
+	width: 70px;
+	height: 70px;
+	padding-left: 135px;
+}
+
+.logo img {
+	height: 70px;
+	width: 65px;
+}
+.search {
+	margin-top: 10%;	
+	float: right;
+}
+.srch{
+	width: 150px;
+	height: 10px;
+	border-radius: 5px;
+	padding: 5px 5px;
+	border: 1px solid gray;
+	font-size: 6px;	
+}
+.content {
+	
+}
+.centr-picture{
+	display: block;
+ 
+}
+
+
+.table th a{
+    font-weight: 600;
+	font-size: 20px;
+	color:#8B008B;
+	text-decoration: none;
+	font-family: Palatino, URW Palladio L, serif;
+	border-radius: 6px;
+    border-width: 3px;
+    border-color: gray;
+    border-style: solid;
+	border-top-style: none;
+	border-bottom-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+	border-style: dashed;
+	
+}
+.table img{
+	float: left;
+	
+	height: 50px;
+	width: 50px;
+	padding-left: 10px;
+}
+.table th{
+	height: 38px;
+    width: 180px;
+    color: white;
+}
+.a{
+	margin: 100px;
+}
+.table{
+	background-color: white;
+}
+.input-style{
+	
+	margin-left: 5px;
+	margin-right: px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #bdc7d8;
+    border-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 38px;
+    width: 90px;
+	color: #999999;
+	
+	text-decoration: none;
+}
+.input{
+	margin-left: 5px;
+	margin-right: px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #bdc7d8;
+    border-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 30px;
+    width: 70px;
+	color: #999999;
+	text-decoration: none;
+}
+.tovar h1{
+	font-weight: 600;
+	color:#271111;
+	text-decoration: none;
+	font-family: Palatino, URW Palladio L, serif;
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.tovar h4{
+	font-weight: 600;
+	color:#271111;
+	text-decoration: none;
+	font-family: Arial Narrow, sans-serif;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+.filtr{
+	float: left;
+	background-color: white;
+	width: 250px;
+	height: 460px;
+	border-radius: 5px;
+    border-width: 2px;
+    border-color: gray;;
+	border-style: solid;
+	margin-left: 100px;
+}
+
+.filtr p{
+	font-weight: 600;
+	color:#271111;
+	text-decoration: none;
+	font-family: Palatino, URW Palladio L, serif;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 20px;
+}
+.cennik{
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+.filtr img{
+	margin-left: 20px;
+}
+.content{
+	background-color: white;
+	margin-right: 100px;
+	margin-bottom: 40px;
+	float: right;
+	height: 460px;
+	width: 850px;
+	border-radius: 5px;
+    border-width: 2px;
+    border-color: white;;
+	border-style: solid;
+}
+.maintable{
+	font-weight: 600;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: Arial Narrow, sans-serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.mainth{
+	padding-left: 20px;
+}
+.secth{
+	padding-left: 20px;
+	color: red;
+}
+.k1{
+	float: left;
+}
+.k1 img{
+	margin-top: 40px;
+	margin-left: 70px;
+	width: 180px;
+	height: 180px;
+}
+.k1 p{
+	margin-left: 120px;
+}
+.k1 button{
+	margin-left: 10px;
+	width: 50px;
+	height: 30px;
+}
+.k2{
+	float: inherit;
+}
+.k2 img{
+	margin-top: 20px;
+	width: 200px;
+	height: 200px;
+	margin-right: 70px;
+}
+.k2 p{
+	margin-left: 60px;
+}
+.k2 button{
+	margin-left: 10px;
+	width: 50px;
+	height: 30px;
+}
+.k3{
+	float: right;
+}
+.k3 img{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 60px;
+	width: 200px;
+	height: 200px;
+}
+.k3 p{
+	margin-left: 65px;
+}
+.k3 button{
+	margin-left: 10px;
+	width: 50px;
+	height: 30px;
+}
+.footer-align{
+	margin-left: 70px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	
+}
+.footer-align th{
+	padding: 20px;
+}
+.footer-align td{
+	padding-left: 20px;
+}
+.footer-align p{
+	margin-top: 20px;
+}
+.name{
+	position: relative;
+	left: 10px;
+	top: 15px;
+	color: #DDB53D;
+	font-size: 30px
+}
